@@ -1,6 +1,16 @@
-@import './_partials/_variables'
-@import './_partials/_normalize'
-@import './_partials/_base'
+@require './_partials/_normalize'
+
+@require './_partials/_base'
+
+@require './_partials/_utils'
+@require './_partials/_colors'
+@require './_partials/_typography'
+
+@require '../components/**/*.styl'
+
+.home {
+    background-color: dark
+}
 
 .global-wrapper {
     margin: 0 auto
