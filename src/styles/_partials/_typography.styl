@@ -1,3 +1,41 @@
 .typo {
-
+    &__body {
+        font-size: 4.5vw
+        font-family: sans-serif
+        font-weight: bold
+        
+        &:nth-child(n + 2) {
+            margin-top: 6vw
+        }
+    }
+    
+    &__blackout {
+        cursor: pointer
+        background-color: black
+        box-sizing: context-box
+        transition: background-color 0.3s ease
+        
+        &:hover {
+            background-color: white
+        }
+    }
+    
+    &__clickable {
+        cursor: pointer
+        text-decoration: underline
+        transition: color 0.3s ease
+        
+        &:hover {
+            color: red
+        }
+    }
+    
+    &__sub {
+        font-size: 1.5vw
+    }
+    
+    &__micro {
+        font-size: 1vw
+        font-family: sans-serif
+    }
 }
